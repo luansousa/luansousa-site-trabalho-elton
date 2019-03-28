@@ -10,7 +10,12 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
+hr{
+  background-color: #7B68EE;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(60deg, rgba(123, 104, 238, 0.99), #57e2db);
+}
 p {
   line-height: 2rem;
 }
