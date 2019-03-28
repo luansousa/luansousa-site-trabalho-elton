@@ -55,6 +55,7 @@ p {
 	-webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0.1;
+  border: 3px solid #7B68EE;
 	
 }
 
@@ -75,7 +76,9 @@ p {
 	-webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0.1;
+   border: 3px solid #7B68EE;
 }
+
 #img2:hover  {
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
@@ -93,6 +96,7 @@ p {
 	-webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0.1;
+  border: 3px solid #7B68EE;
   
 }  
 
