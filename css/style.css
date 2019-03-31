@@ -6,15 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+ .white{
+  background-color:#7B68EE;
+ }
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: white;
 }
-
-h5{
-   font-size: 20px;
-}
-
 
 hr{
   background-color: #7B68EE;
@@ -25,10 +23,23 @@ hr{
 
 p {
   line-height: 2rem;
+  color: black;
 }
 
+h5{
+  font-size: 20px;
+
+}
 .sidenav-trigger {
   color: #26a69a;
+}
+.equipe{
+    width: 100%;
+    
+} 
+
+h4{
+  color: black;
 }
 
 .parallax-container {
@@ -64,6 +75,7 @@ p {
 	-webkit-transform: scale(1.1);
   transform: scale(1.1);
   opacity: 1;
+ 
 }
 
 #img2 { 
@@ -76,9 +88,8 @@ p {
 	-webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0.1;
-   border: 3px solid #7B68EE;
+  border: 3px solid #7B68EE;
 }
-
 #img2:hover  {
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
@@ -97,7 +108,6 @@ p {
   transition: all 0.3s;
   opacity: 0.1;
   border: 3px solid #7B68EE;
-  
 }  
 
 #img3:hover  {
