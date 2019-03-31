@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Reconhecimento de Placas Veiculares usando RaspberryPi 3</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+					<section data-background-video="video/videocam.mp4">
+							<h3>Reconhecimento de Placas Veiculares com o Raspberry Pi 3</h3>
+							<hr>
+							<b>Equipe:</b> Arthur, Cély, Cícero, Clauber, João Renato, 
+								Luan Felipe, Luís Fillype, Lucas Matheus, Lucas Raphael, Philipe, Tiago Santos.
+					</section> 
+						
+					
+					
+				<section data-background="img/carback.jpg">
+					<h3>Reconhecimento de Placas Veiculares com o Raspberry Pi 3</h3>
+					<hr>
+					<b>Equipe:</b> Arthur, Cély, Cícero, Clauber, João Renato, 
+						Luan Felipe, Luís Fillype, Lucas Matheus, Lucas Raphael, Philipe, Tiago Santos. 
+				</section>
+				
+				<section data-background="#EE6363">
+					<h3 style="color:white;">OCR - Reconhecimento Ótico de Caracteres </h3>
+				</section>	
+
+				<section  data-background="#6eb33f" data-transition="fast">
+					<h3 style="color:white;">API Restful - SpringBoot</h3>
+				</section>
+
+				<section>
+					<section data-background="white">
+							Através do mapeamento de URL e dos verbos HTTP, é possível fazer requisições para uma aplicação Java rodando em um servidor e receber as informações dos veículos do banco de dados.
+							Dessa forma, o algoritmo de OCR irá decodificar a placa do veículo e fazer uma requisição HTTP para a API, e depois, através da interface gráfica, mostrar se o veículo está autorizado ou não a entrar no condomínio.
+					</section>
+					<section data-background="white"><img src="img/api-image.PNG" alt=""></section>
+				</section>
+			
+				<section data-background="#00B2EE">
+					<h3 style="color:white;">Interface Gráfica - Python</h3>
+					<hr>
+					<img src="img/Wireframe_interface.jpg" alt="">
+				</section>
+				
+				<section data-background="white">
+					<img src="img/fluxo_atividades.jpeg" alt="">
+				</section>
+				
+				<section data-markdown>
+						<textarea data-template>
+							## Referências
+					
+							- Github com repositórios do tessercat - [link](https://github.com/tesseract-ocr/).
+							- Site do SpringBoot - [link](https://spring.io/projects/spring-boot).
+							
+							![link](https://media.giphy.com/media/LBBwhheCq4RuE/giphy.gif)
+						</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				defaultTiming: 120,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+				
+			}
+			);
+		</script>
+	</body>
+</html>
